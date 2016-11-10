@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$("li").fadeTo("fast", 1);
 	});
 
-	$("img").click(function(){
+	$("li").click(function(){
 		$(this).text("Clicked",1);
 	});
 
